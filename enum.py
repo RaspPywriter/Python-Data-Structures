@@ -31,3 +31,5 @@ class Country(enum.IntEnum):
         Angola = 244
         Antarctica = 672
 print('\n'.join(' ' + s.name for s in sorted(Country)))
+print('Print the values only')
+print(' '.join(' ' + str(s.value) for s in sorted(Country)))
