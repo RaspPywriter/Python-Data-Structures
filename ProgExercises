@@ -1,0 +1,31 @@
+#Implement the simple methods get_num and get_den that will return the numerator
+#and denominator of a fraction - used two methods
+
+def get_num(n):
+    numerator = n.numerator
+    return numerator
+    
+def get_den(n):
+    denominator = n.denominator
+    return denominator
+
+class FracResults:
+    def __init__(self, top, bottom):
+        self.numerator = top 
+        self.denominator = bottom
+
+    def get_num2(self):
+        return self.numerator
+    
+    def get_den2(self):
+        return self.denominator
+
+
+
+
+from fractions import Fraction
+frac = Fraction(3, 8)
+get_num(frac)
+get_den(frac)
+FracResults.get_num2(frac)
+FracResults.get_den2(frac)
