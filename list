@@ -1,0 +1,36 @@
+# This is my to do list
+recurringlist = ['dishes', 'make bed', 'do laundry', 'make dinner']
+recListCopy = recurringlist
+print(recListCopy, 'list')
+recListCopy.reverse()
+
+
+print('I have', len(recurringlist), 'things to do today.')
+
+print('These things are:', end=' ')
+for item in recurringlist:
+    print(item, end=' ')
+
+print('\nI also have to mop the kitchen.')
+recurringlist.append('mop kitchen')
+print('My to do list is now', recurringlist)
+
+print('I will sort my list in descending order')
+recurringlist.sort(reverse=True)
+print('Reverse sorted to do list is', recurringlist)
+
+print('Reverse another way ', recListCopy)
+
+print('I will sort my list now')
+recurringlist.sort()
+print('Sorted to do list is', recurringlist)
+
+print('Now to slice the list and get the last two items')
+print(recurringlist[3:])
+
+print('The first item to do is ', recurringlist[0])
+finishedItem = recurringlist[0]
+del recurringlist[0]
+print('I bought the', finishedItem)
+print('My remaining to do list is ', recurringlist)
+
