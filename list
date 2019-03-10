@@ -34,3 +34,5 @@ del recurringlist[0]
 print('I bought the', finishedItem)
 print('My remaining to do list is ', recurringlist)
 
+print('pop example, give last value')
+print(recurringlist.pop())
