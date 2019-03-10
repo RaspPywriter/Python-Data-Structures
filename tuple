@@ -1,0 +1,42 @@
+# tuple having integers
+pracTuple  = (2, 4, 6, 8, 10, 12, 14, 16, 18, 20)
+print(pracTuple)
+print('now get first element')
+print(pracTuple[0])
+print('get last element')
+print(pracTuple[-1])
+#slicing
+print('slicing of tuple from second element1')
+print(pracTuple[2:])
+#adding tuples
+print((7, 8, 9) + (6, 5, 4))
+
+num = (7, 17, 77, -32, 27, 37, 57, 44)
+print('sum of num tuple ', sum(num))
+print('min of tuple', min(num))
+print('max of tuple', max(num))
+print('sorted tuple', sorted(num))
+#multiples
+print(('python',)*3)
+# tuple with mixed datatypes
+
+pracTuple = (-78, "Python", 3.4)
+print(pracTuple)
+
+# nested tuple
+pracTuple = ("Python", [2, 4, 6], (1, 2, 3))
+print(pracTuple)
+
+#another way to create a 
+pracTuple = "each", "on", "own", "line"
+print(pracTuple)
+
+#print out each tuple on each line
+a, b, c, d= pracTuple
+print(a)
+print(b)
+print(c)
+print(d)
+
+#deletes the tuple
+del pracTuple
