@@ -1,1 +1,1 @@
-Exercises from Data Structures Book
+Exercises from Python Data Structures and Algorithms Book by Benjamin Baka.
