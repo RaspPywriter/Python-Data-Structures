@@ -1,10 +1,12 @@
 from datetime import date
 def get_info():
+    #get name and age of user
     name = input("Please enter your name ")
     age = input("Please enter your age ")
     return name, age
 
 def calc_age(x):
+    
     years = 100 - int(x)
     curr_year = date.today().year
     yr100 = int(curr_year) + int(years)
