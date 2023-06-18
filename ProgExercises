@@ -1,6 +1,6 @@
 #Implement the simple methods get_num and get_den that will return the numerator
 #and denominator of a fraction - used two methods
-
+from fractions import Fraction
 def get_num(n):
     numerator = n.numerator
     return numerator
@@ -23,7 +23,7 @@ class FracResults:
 
 
 
-from fractions import Fraction
+
 frac = Fraction(3, 8)
 get_num(frac)
 get_den(frac)
